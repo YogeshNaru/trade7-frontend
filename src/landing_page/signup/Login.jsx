@@ -28,7 +28,7 @@ export default function Login() {
         // Redirect to dashboard
         toast.success("Welcome back! 🚀");
         setTimeout(() => {
-          window.location.href = `http://localhost:5174/?token=${data.token}&name=${data.user.name}`;
+          window.location.href = `trade7-dashboard.vercel.app/?token=${data.token}&name=${data.user.name}`;
         }, 1500);
       } else {
         toast(data.message);

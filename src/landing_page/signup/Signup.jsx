@@ -30,7 +30,7 @@ export default function Signup() {
         // Redirect to dashboard
         toast.success("Account created successfully 🎉");
         setTimeout(() => {
-          window.location.href = `http://localhost:5174/?token=${data.token}&name=${data.user.name}`;
+          window.location.href = `trade7-dashboard.vercel.app/?token=${data.token}&name=${data.user.name}`;
         }, 1500);
       } else {
         toast.error(data.message);
