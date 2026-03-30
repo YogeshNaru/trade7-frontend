@@ -17,15 +17,9 @@ export default function Hero() {
               placeholder="Eg. how do I activate F&O, why is my order getting rejected.."
             />
             <br />
-            <a className="atag" href="">
-              Track account opening
-            </a>
-            <a className="atag" href="">
-              Track segment activation
-            </a>
-            <a className="atag" href="">
-              Intraday margins
-            </a>
+            <a className="atag">Track account opening</a>
+            <a className="atag">Track segment activation</a>
+            <a className="atag">Intraday margins</a>
             <a className="atag" href="">
               Kite user manual
             </a>
